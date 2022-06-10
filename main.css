@@ -1,0 +1,21 @@
+
+/* titel Css */
+.maintitle {
+    text-align: center;
+    color: #000000;
+}
+
+/* Um das Bild in der Höhe zu verändern tue das hier: */
+.entryimage {
+    opacity: 90%;
+}
+
+.carousel-inner{
+    height: 200px;
+}
+
+.item, img{
+    height: 100% !important;
+    width:  100% !important;
+}
+
