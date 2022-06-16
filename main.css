@@ -1,3 +1,7 @@
+/* das hier ist für Änderungen an der ganzen Webseite! */
+body {
+    background-color: #F8EBC7;
+}
 
 /* titel Css */
 .maintitle {
@@ -18,4 +22,21 @@
     height: 100% !important;
     width:  100% !important;
 }
+
+/* hier ist der Css Code für die Buttons auf der Landingpage */
+.buttonlanding {
+    padding-top: 5%;
+}
+
+.colorbutt {
+    background-color: #AB9D78;
+    border: 0px;
+}
+
+.colorbutt:hover {
+    background-color: #C2A97E;
+    border: 0px;
+}
+
+
 
