@@ -7,9 +7,10 @@
     <title>Weisheiten</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+    <!-- CSS Stylesheet für gemeinsame Stil -->
+    <link rel="stylesheet" href="main.css">
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -33,5 +34,29 @@
             </div>
           </nav>
     </header>
+
+    <main>
+            <!-- Hier ist der Obereteil mit Titel -->
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="/Media/sand-2848098.jpeg" class="d-block w-100 entryimage" alt="entryimage">
+                </div>
+                <div class="carousel-caption">
+                <!-- falls es so wie oben nicht geht verwende diesen Code <div class="card-img-overlay">   -->
+                  <h2 class="maintitle">Weisheiten aus unserer Klasse</h2>
+              </div>
+              </div>
+            </div>
+    </main>
 </body>
+
+<footer class="bg-light text-center text-lg-start mt-auto">
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: #F8F9FA; opacity: 80%;">
+    © 2022 Copyright:
+    <a class="text-dark" href="/landingpage.html">SevLuz</a>
+  </div>
+  <!-- Copyright -->
+</footer>
 </html>
