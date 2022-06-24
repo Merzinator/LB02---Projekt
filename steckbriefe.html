@@ -1,41 +1,436 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="steckbriefe.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="steckbriefe.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS Stylesheet für gemeinsame Stil -->
+    <link rel="stylesheet" href="main.css" />
     <title>Steckbriefe</title>
-</head>
-<body>
+  </head>
+  <body class="d-flex flex-column min-vh-100">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="landingpage.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" class="nav-link">Steckbriefe</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="weisheiten.html">Weisheiten</a>
-                  </li>
-                </ul>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/landingpage.html">ME21A</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="landingpage.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" class="nav-link">Steckbriefe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="weisheiten.html">Weisheiten</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hier ist der Obereteil mit Titel -->
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="/Media/sand-2848098.jpeg"
+              class="d-block w-100 entryimage"
+              alt="entryimage"
+            />
+          </div>
+          <div class="carousel-caption">
+            <!-- falls es so wie oben nicht geht verwende diesen Code <div class="card-img-overlay">   -->
+            <h1 class="maintitle">Charakteristik</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <!-- für neuer Eintrag starte hier ↓ -->
+          <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+              <div class="pic">
+                <!-- Hier kommt das Bild des Schülers hin -->
+                <img src="/Media/image.jpeg" alt="" />
+              </div>
+              <div class="team-content">
+                <!-- Hier kommt der Name hin ↓ -->
+                <h3 class="title">Luzian Brunner</h3>
+                <span class="post">Website Creator ;)</span>
+                <p class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus pulvinar feugiat fermentum. Donec efficitur posuere
+                  eros, vitae placerat.
+                </p>
               </div>
             </div>
-          </nav>
-    </header>
-    <h1>Charakteristik</h1>
-    <div class="Steckbrief"></div>
-    <h1>Hier sind unsere Superhelden der ME21A</h1>
-    <p>Die ist ein Test den wir ausprobieren.</p>
-</body>
+          </div>
+          <!-- endet hier ↑ -->
+
+          <!-- für neuer Eintrag starte hier ↓ -->
+          <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+              <div class="pic">
+                <!-- Hier kommt das Bild des Schülers hin -->
+                <img src="/Media/image.jpeg" alt="" />
+              </div>
+              <div class="team-content">
+                <h3 class="title">Severin Merz</h3>
+                <span class="post">Website Creator ;)</span>
+                <p class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus pulvinar feugiat fermentum. Donec efficitur posuere
+                  eros, vitae placerat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- endet hier ↑ -->
+
+          <!-- für neuer Eintrag starte hier ↓ -->
+          <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+              <div class="pic">
+                <!-- Hier kommt das Bild des Schülers hin -->
+                <img src="/Media/image.jpeg" alt="" />
+              </div>
+              <div class="team-content">
+                <h3 class="title">Ashley Kobler</h3>
+                <span class="post">web developer</span>
+                <p class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus pulvinar feugiat fermentum. Donec efficitur posuere
+                  eros, vitae placerat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- endet hier ↑ -->
+
+          <!-- für neuer Eintrag starte hier ↓ -->
+          <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+              <div class="pic">
+                <!-- Hier kommt das Bild des Schülers hin -->
+                <img src="/Media/image.jpeg" alt="" />
+              </div>
+              <div class="team-content">
+                <h3 class="title">Nico Roth</h3>
+                <span class="post">web developer</span>
+                <p class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus pulvinar feugiat fermentum. Donec efficitur posuere
+                  eros, vitae placerat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- endet hier ↑ -->
+
+          <!-- für neuer Eintrag starte hier ↓ -->
+          <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+              <div class="pic">
+                <!-- Hier kommt das Bild des Schülers hin -->
+                <img src="/Media/image.jpeg" alt="" />
+              </div>
+              <div class="team-content">
+                <h3 class="title">Severin Sträuli</h3>
+                <span class="post">web developer</span>
+                <p class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus pulvinar feugiat fermentum. Donec efficitur posuere
+                  eros, vitae placerat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- endet hier ↑ -->
+
+          <!-- für neuer Eintrag starte hier ↓ -->
+          <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+              <div class="pic">
+                <!-- Hier kommt das Bild des Schülers hin -->
+                <img src="/Media/image.jpeg" alt="" />
+              </div>
+              <div class="team-content">
+                <h3 class="title">Altea Baumann</h3>
+                <span class="post">web developer</span>
+                <p class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus pulvinar feugiat fermentum. Donec efficitur posuere
+                  eros, vitae placerat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- endet hier ↑ -->
+
+          <!-- für neuer Eintrag starte hier ↓ -->
+          <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+              <div class="pic">
+                <!-- Hier kommt das Bild des Schülers hin -->
+                <img src="/Media/image.jpeg" alt="" />
+              </div>
+              <div class="team-content">
+                <h3 class="title">Jamiro Schenk</h3>
+                <span class="post">web developer</span>
+                <p class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus pulvinar feugiat fermentum. Donec efficitur posuere
+                  eros, vitae placerat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- endet hier ↑ -->
+
+          <!-- für neuer Eintrag starte hier ↓ -->
+          <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+              <div class="pic">
+                <!-- Hier kommt das Bild des Schülers hin -->
+                <img src="/Media/image.jpeg" alt="" />
+              </div>
+              <div class="team-content">
+                <h3 class="title">Alessia Rotondo</h3>
+                <span class="post">web developer</span>
+                <p class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus pulvinar feugiat fermentum. Donec efficitur posuere
+                  eros, vitae placerat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- endet hier ↑ -->
+
+          <!-- für neuer Eintrag starte hier ↓ -->
+          <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+              <div class="pic">
+                <!-- Hier kommt das Bild des Schülers hin -->
+                <img src="/Media/image.jpeg" alt="" />
+              </div>
+              <div class="team-content">
+                <h3 class="title">Lenny Werrn</h3>
+                <span class="post">web developer</span>
+                <p class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus pulvinar feugiat fermentum. Donec efficitur posuere
+                  eros, vitae placerat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- endet hier ↑ -->
+
+          <!-- für neuer Eintrag starte hier ↓ -->
+          <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+              <div class="pic">
+                <!-- Hier kommt das Bild des Schülers hin -->
+                <img src="/Media/image.jpeg" alt="" />
+              </div>
+              <div class="team-content">
+                <h3 class="title">Noah Geissler</h3>
+                <span class="post">web developer</span>
+                <p class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus pulvinar feugiat fermentum. Donec efficitur posuere
+                  eros, vitae placerat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- endet hier ↑ -->
+
+          <!-- für neuer Eintrag starte hier ↓ -->
+          <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+              <div class="pic">
+                <!-- Hier kommt das Bild des Schülers hin -->
+                <img src="/Media/image.jpeg" alt="" />
+              </div>
+              <div class="team-content">
+                <h3 class="title">Noel Broadbent</h3>
+                <span class="post">web developer</span>
+                <p class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus pulvinar feugiat fermentum. Donec efficitur posuere
+                  eros, vitae placerat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- endet hier ↑ -->
+
+          <!-- für neuer Eintrag starte hier ↓ -->
+          <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+              <div class="pic">
+                <!-- Hier kommt das Bild des Schülers hin -->
+                <img src="/Media/image.jpeg" alt="" />
+              </div>
+              <div class="team-content">
+                <h3 class="title">Thierry Biland</h3>
+                <span class="post">web developer</span>
+                <p class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus pulvinar feugiat fermentum. Donec efficitur posuere
+                  eros, vitae placerat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- endet hier ↑ -->
+
+          <!-- für neuer Eintrag starte hier ↓ -->
+          <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+              <div class="pic">
+                <!-- Hier kommt das Bild des Schülers hin -->
+                <img src="/Media/image.jpeg" alt="" />
+              </div>
+              <div class="team-content">
+                <h3 class="title">Renate Firlie</h3>
+                <span class="post">web developer</span>
+                <p class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus pulvinar feugiat fermentum. Donec efficitur posuere
+                  eros, vitae placerat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- endet hier ↑ -->
+
+          <!-- für neuer Eintrag starte hier ↓ -->
+          <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+              <div class="pic">
+                <!-- Hier kommt das Bild des Schülers hin -->
+                <img src="/Media/image.jpeg" alt="" />
+              </div>
+              <div class="team-content">
+                <h3 class="title">Lauryne Stettler</h3>
+                <span class="post">web developer</span>
+                <p class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus pulvinar feugiat fermentum. Donec efficitur posuere
+                  eros, vitae placerat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- endet hier ↑ -->
+
+          <!-- für neuer Eintrag starte hier ↓ -->
+          <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+              <div class="pic">
+                <!-- Hier kommt das Bild des Schülers hin -->
+                <img src="/Media/image.jpeg" alt="" />
+              </div>
+              <div class="team-content">
+                <h3 class="title">Mike Seidl</h3>
+                <span class="post">web developer</span>
+                <p class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus pulvinar feugiat fermentum. Donec efficitur posuere
+                  eros, vitae placerat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- endet hier ↑ -->
+
+          <!-- für neuer Eintrag starte hier ↓ -->
+          <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+              <div class="pic">
+                <!-- Hier kommt das Bild des Schülers hin -->
+                <img src="/Media/image.jpeg" alt="" />
+              </div>
+              <div class="team-content">
+                <h3 class="title">Gaetan Zehnder</h3>
+                <span class="post">web developer</span>
+                <p class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus pulvinar feugiat fermentum. Donec efficitur posuere
+                  eros, vitae placerat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- endet hier ↑ -->
+
+          <!-- für neuer Eintrag starte hier ↓ -->
+          <div class="col-md-4 col-sm-6">
+            <div class="our-team">
+              <div class="pic">
+                <!-- Hier kommt das Bild des Schülers hin -->
+                <img src="/Media/image.jpeg" alt="" />
+              </div>
+              <div class="team-content">
+                <h3 class="title">Lean Muttner</h3>
+                <span class="post">web developer</span>
+                <p class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus pulvinar feugiat fermentum. Donec efficitur posuere
+                  eros, vitae placerat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- endet hier ↑ -->
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <footer class="bg-light text-center text-lg-start mt-auto">
+    <!-- Copyright -->
+    <div
+      class="text-center p-3"
+      style="background-color: #f8f9fa; opacity: 80%"
+    >
+      © 2022 Copyright:
+      <a class="text-dark" href="/landingpage.html">SevLuz</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
 </html>

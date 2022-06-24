@@ -1,0 +1,42 @@
+/* das hier ist für Änderungen an der ganzen Webseite! */
+body {
+    background-color: #F8EBC7;
+}
+
+/* titel Css */
+.maintitle {
+    text-align: center;
+    color: #000000;
+}
+
+/* Um das Bild in der Höhe zu verändern tue das hier: */
+.entryimage {
+    opacity: 90%;
+}
+
+.carousel-inner{
+    height: 200px;
+}
+
+.item, img{
+    height: 100% !important;
+    width:  100% !important;
+}
+
+/* hier ist der Css Code für die Buttons auf der Landingpage */
+.buttonlanding {
+    padding-top: 5%;
+}
+
+.colorbutt {
+    background-color: #AB9D78;
+    border: 0px;
+}
+
+.colorbutt:hover {
+    background-color: #C2A97E;
+    border: 0px;
+}
+
+
+
