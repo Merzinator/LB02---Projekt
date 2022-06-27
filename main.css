@@ -38,5 +38,31 @@ body {
     border: 0px;
 }
 
+.our-team{
+    padding: 0 20px;
+    text-align: center;
+    position: relative;
+    padding-top: 5%;
+    margin-top: 30px;
+}
 
+.our-team .title{
+    display: inline-block;
+    font-size: 19px;
+    color: #001d33;
+    letter-spacing: 2px;
+    margin: 0 0 15px 0;
+    text-transform: uppercase;
+}
+.our-team .post{
+    display: inline-block;
+    font-size: 12px;
+    color: #1c5acc;
+    text-transform: uppercase;
+}
+.our-team .description{
+    font-size: 14px;
+    color: #777;
+    line-height: 27px;
+}
 
