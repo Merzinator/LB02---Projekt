@@ -28,6 +28,27 @@ body {
     padding-top: 5%;
 }
 
+/* CSS für das Landingpage Gif */
+.gif {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: auto !important;
+    max-height: 1080px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ton für die landingpage */
+
+.ton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
 .colorbutt {
     background-color: #AB9D78;
     border: 0px;
@@ -66,21 +87,3 @@ body {
     line-height: 27px;
 }
 
-/* CSS für das Landingpage Gif */
-.gif {
-    margin-top: 4%;
-    margin-bottom: 4%;
-    width: auto !important;
-    max-height: 1080px !important;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* ton für die landingpage */
-
-.ton {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
